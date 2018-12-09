@@ -3,6 +3,7 @@ package main
 import (
 	"os"
 	"github.com/azure/golua/lua"
+	"fmt"
 )
 
 var (
@@ -19,6 +20,6 @@ func main() {
 	defer state.Close()
 
 	if err := state.LoadFile(path); err != nil {
-		panic(err)
+		fmt.Printf("[%s] Error [%s]",path,err.Error())
 	}
 }
