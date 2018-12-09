@@ -13,7 +13,7 @@
 
 准备：go get github.com/yuin/gopher-lua/ast
 
-用法 ./lua-syntax-checker [path] [logfilePath]
+用法 ./lua-syntax-checker [path] [logfilePath]（必须是完整路径）
 
 1  ./lua-syntax-checker /Users/mac/abc.lua  校验/Users/mac/abc.lua文件(已支持)
 
