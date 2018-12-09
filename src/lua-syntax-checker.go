@@ -1,8 +1,8 @@
 package main
 
 import (
-	"go-lua-syntax-checker/src/github.com/azure/golua/lua"
 	"os"
+	"github.com/azure/golua/lua"
 )
 
 var (
