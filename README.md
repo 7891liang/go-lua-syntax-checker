@@ -1,6 +1,8 @@
 # go-lua-syntax-checker
 用go来实现的一个lua语法检查工具
 
+引用 go-lua库  https://github.com/Azure/golua.git
+
 开发工具 - intelliJ idea+go插件  GOPATH一定要设置对
 
 目前我只编译的mac版本，需要windows版本的，请自行编译
