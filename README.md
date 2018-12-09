@@ -11,6 +11,8 @@
 
 3，定时对项目中的lua文件进行检查并进行报警
 
+准备：go get github.com/yuin/gopher-lua/ast
+
 用法 ./lua-syntax-checker [path] [-R] [logfilePath]
 
 1  ./lua-syntax-checker .  校验当前目录下的lua文件
