@@ -41,7 +41,7 @@ func main() {
 			fmt.Print(str)
 		}else
 		{
-			fmt.Print(str)
+			str = "检查 "+ currPath +"目录，存在错误 \n" + str
 			WriteWithIoutil(output,str)
 		}
 	}
