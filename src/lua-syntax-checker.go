@@ -8,7 +8,7 @@ import (
 
 var (
 	trace bool = false
-	debug bool = false
+	debug bool = true
 	tests bool = false
 )
 
@@ -19,7 +19,13 @@ func main() {
 	state := lua.NewState(opts...)
 	defer state.Close()
 
+	str := ""
 	if err := state.LoadFile(path); err != nil {
-		fmt.Printf("[%s] Error [%s]",path,err.Error())
+		str +=fmt.Sprintf("[%s] Error [%s] \n",path,err.Error())
+	}
+	fmt.Print(str)
+
+	if str != "" {
+		fmt.Print("has error")
 	}
 }
