@@ -32,7 +32,7 @@ func main() {
 	xfiles, _ := GetAllFiles(currPath)
 	for _, file := range xfiles {
 		if err := state.LoadFile(file); err != nil {
-			str +=fmt.Sprintf("[%s] Error -> %s",file,err.Error())
+			str +=fmt.Sprintf("[%s] Error -> %s",strings.Replace(file,currPath,"",-1),err.Error())
 		}
 	}
 

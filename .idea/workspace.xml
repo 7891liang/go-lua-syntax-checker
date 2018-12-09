@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4268eda8-a6ae-4b1b-91b7-4d47b81f69bf" name="Default Changelist" comment="" />
+    <list default="true" id="4268eda8-a6ae-4b1b-91b7-4d47b81f69bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/lua-syntax-checker" beforeDir="false" afterPath="$PROJECT_DIR$/src/lua-syntax-checker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lua-syntax-checker.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/lua-syntax-checker.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +17,8 @@
       <file leaf-file-name="lua-syntax-checker.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lua-syntax-checker.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="74" column="54" lean-forward="true" selection-start-line="74" selection-start-column="54" selection-end-line="74" selection-end-column="54" />
+            <state relative-caret-position="375">
+              <caret line="34" column="97" selection-start-line="34" selection-start-column="97" selection-end-line="34" selection-end-column="97" />
               <folding>
                 <element signature="e#14#30#0" expanded="true" />
               </folding>
@@ -144,12 +147,12 @@
       <option name="presentableId" value="Default" />
       <updated>1544331025668</updated>
       <workItem from="1544331027140" duration="107000" />
-      <workItem from="1544331259067" duration="3463000" />
+      <workItem from="1544331259067" duration="4201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3570000" />
+    <option name="totallyTimeSpent" value="4308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="23" width="1872" height="1057" extended-state="6" />
@@ -256,8 +259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lua-syntax-checker.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="74" column="54" lean-forward="true" selection-start-line="74" selection-start-column="54" selection-end-line="74" selection-end-column="54" />
+        <state relative-caret-position="375">
+          <caret line="34" column="97" selection-start-line="34" selection-start-column="97" selection-end-line="34" selection-end-column="97" />
           <folding>
             <element signature="e#14#30#0" expanded="true" />
           </folding>
