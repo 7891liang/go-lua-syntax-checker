@@ -5,6 +5,7 @@
 
 目前我只编译的mac版本，需要windows版本的，请自行编译
 
+
 应用场景：
 
 1，在自动构建项目的时候，对项目中的lua文件进行批量语法检查
@@ -15,8 +16,8 @@
 
 
 
-用法 ./lua-syntax-checker [path] [logfilePath]（必须是完整路径）
 
+用法 ./lua-syntax-checker [path] [logfilePath]（必须是完整路径）
 
 1  ./lua-syntax-checker .  校验当前目录下的lua文件
 
