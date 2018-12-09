@@ -1,0 +1,3 @@
+[submodule "github.com/golua"]
+	path = github.com/golua
+	url = https://github.com/Azure/golua.git
