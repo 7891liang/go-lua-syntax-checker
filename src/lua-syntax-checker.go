@@ -12,6 +12,11 @@ import (
 
 func main() {
 	path :=os.Args[1]
+	output :=""
+	if len(os.Args) == 3 {
+		output =os.Args[2]
+	}
+
 	currPath :=""
 	if path == "." {
 		currPath = GetCurrentDirectory()
@@ -32,7 +37,13 @@ func main() {
 	}
 
 	if str != "" {
-		fmt.Print(str)
+		if output == "" {
+			fmt.Print(str)
+		}else
+		{
+			fmt.Print(str)
+			WriteWithIoutil(output,str)
+		}
 	}
 }
 
@@ -76,4 +87,11 @@ func GetAllFiles(dirPth string) (files []string, err error) {
 	}
 
 	return files, nil
+}
+
+func WriteWithIoutil(name,content string) {
+	data :=  []byte(content)
+	if ioutil.WriteFile(name,data,0644) == nil {
+		fmt.Println("写入文件成功:",content)
+	}
 }
