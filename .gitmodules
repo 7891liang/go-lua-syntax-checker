@@ -1,9 +1,3 @@
-[submodule "github.com/gopher-lua"]
-	path = github.com/gopher-lua
-	url = https://github.com/yuin/gopher-lua.git
-[submodule "github.com/gopher"]
-	path = github.com/gopher
-	url = https://github.com/yuin/gopher-lua.git
 [submodule "github.com/yuin/gopher-lua"]
 	path = github.com/yuin/gopher-lua
 	url = https://github.com/yuin/gopher-lua.git
