@@ -1,16 +1,24 @@
 package main
 
 import (
-	"github.com/yuin/gopher-lua"
+	"go-lua-syntax-checker/src/github.com/azure/golua/lua"
 	"os"
+)
+
+var (
+	trace bool = false
+	debug bool = false
+	tests bool = false
 )
 
 func main() {
 	path :=os.Args[1]
 
-	L := lua.NewState()
-	defer L.Close()
-	if err := L.DoFile(path); err != nil {
+	var opts = []lua.Option{lua.WithTrace(trace), lua.WithVerbose(debug)}
+	state := lua.NewState(opts...)
+	defer state.Close()
+
+	if err := state.LoadFile(path); err != nil {
 		panic(err)
 	}
 }
