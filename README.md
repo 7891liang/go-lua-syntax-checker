@@ -23,4 +23,4 @@
 
 4  ./lua-syntax-checker /Users/mac/  校验/Users/mac/及其子目录下的lua文件
 
-5  ./lua-syntax-checker .  /Users/mac/result.log 校验当前目录下的lua文件输出日志到/Users/mac/result.log
+5  ./lua-syntax-checker .   /Users/mac/result.log 校验当前目录下的lua文件输出日志到/Users/mac/result.log
